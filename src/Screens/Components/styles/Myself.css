@@ -1,0 +1,29 @@
+.intro{
+    display: flex;
+    gap: 1rem;
+    margin: 5% 0% 0% 10%
+}
+.Myself{
+    margin: 0% 0% 5% 10%;
+    text-align: center;
+    padding: 25px 50px;
+    display: block;
+    max-width: 40%;
+    border-radius: 20px;
+    border:2px solid lightgray;
+}
+.Myself>p{
+    text-align: center;
+}
+.Myself>h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+}
+.my_image>img{
+    border-radius: 15px;
+    width: 80%;
+
+}
+.my_image{
+    margin-top: 2%;
+}

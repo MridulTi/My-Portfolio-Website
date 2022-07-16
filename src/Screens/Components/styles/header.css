@@ -1,0 +1,71 @@
+.Banner{
+    background-color: #282828;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.banner-content{
+    padding: 40% 15% 55% 15%;
+}
+.your-name{
+    height: 1px;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+}
+.your-name>h1{
+    font-weight: 400;
+    font-size: 40px;
+    color:#FF7E98;
+    font-family: 'Raleway', sans-serif;
+}
+.your-name>p{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.banner-content>h2{
+    line-height: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    word-spacing: 2px;
+    font-size: 40px;
+}
+.banner-content>p{
+    line-height: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.Header-connect{
+    display: flex;
+    gap: 5%;
+    margin: 10% 19%;
+    align-items: center;
+}
+.Header-connect>h4{
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Header-connect>h4:hover{
+    color: aqua;
+}
+.Header-connect>button{
+    color: #FF7E98;
+    height: 40px;
+    width: 40%;
+    border: 2px solid #FF7E98;
+    background-color: transparent;
+    font-size: 20px;
+}
+.Header-connect>button:hover{
+    color: white;
+    background-color: #F16984;
+
+}

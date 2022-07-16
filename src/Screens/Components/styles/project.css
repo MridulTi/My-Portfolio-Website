@@ -1,0 +1,23 @@
+.projects{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 5% 0%;
+}
+.projects>h1{
+    text-align: center;
+}
+.projects>hr{
+    background-color: #3AB0FF;
+    border: 2px solid #3AB0FF;
+    width: 12%;
+}
+.collage-index{
+    color: #565656;
+    opacity: 50%;
+    margin-top: 5%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    justify-content: center;
+    display: flex;
+    gap: 8%;
+}

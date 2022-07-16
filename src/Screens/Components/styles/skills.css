@@ -1,0 +1,15 @@
+.skills{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 5% 0%;
+    background-color: #282828;
+    color: white;
+}
+.skills>h1{
+    text-align: center;
+}
+.skills>hr{
+    background-color: #FF7E98;
+    border: 2px solid #FF7E98;
+    width: 8%;
+}

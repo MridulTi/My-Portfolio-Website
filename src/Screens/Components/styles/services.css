@@ -1,0 +1,53 @@
+.services{
+    font-family: 'Raleway', sans-serif;
+    padding: 10% 0%;
+    background-color: #282828;
+    color: white;
+}
+.services>h1{
+    text-align: center;
+}
+.services>hr{
+    background-color: #FF7E98;
+    border: 1.5px solid #FF7E98;
+    width: 10%;
+}
+.service-content-list>div{
+    margin: 5% 2%;
+    padding:1% 3% 1% 3% ;
+    width: 25%;
+    background-color: #565656;
+}
+.service-content-list>div>p{
+    font-size: 17px;
+}
+.service-content-list>div>h4{
+    font-size: 20px;
+}
+.service-content-list{
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+}
+.service-content-list>div:hover{
+    background-color:black;
+}
+.service-content-list>div>div{
+    border-color: #3AB0FF;
+    width: 10%;
+}
+.services>button{
+    border: 1px solid #FF7E98;
+    width: 18%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    margin-left: 41%;
+}
+.services>button:hover{
+    border-color: #FF7E98;
+    background-color: #FF7E98;
+    color: black;
+}

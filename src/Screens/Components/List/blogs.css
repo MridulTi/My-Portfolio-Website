@@ -1,0 +1,17 @@
+.Blogs{
+    /* position:relative; */
+    border-radius: 1rem;
+    width: 20%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 3% 0%;
+    background-color:#fff40f;
+}
+.Blogs-list{
+    display: flex;
+    gap: 1rem;
+}
+.Blogs>img{
+    margin: 5%;
+    width: 90%;
+}

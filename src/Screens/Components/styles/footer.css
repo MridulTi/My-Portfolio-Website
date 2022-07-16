@@ -1,0 +1,68 @@
+.foot{
+    margin-top: 10%;
+    margin: 15% 32% 0%;
+    font-size: 20px;
+}
+.foot>ul{
+    
+    display: flex;
+    gap: 4%;
+    list-style:none;
+    color: white;
+}
+.FootBtn{
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 8%;
+}
+.FootBtn>button{
+    background-color: #f7617f;
+    color: rgb(58, 57, 57);
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    border: 10px solid #f7617f;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-right: 6px
+}
+.FootBtn>button:hover{
+    color: #f7617f;
+    background-color: rgb(58, 57, 57);
+    border-color: rgb(58, 57, 57);
+    
+}
+.Footimp>hr{
+    border-color:#3AB0FF ;
+    width: 50%;
+}
+.blue{
+    font-weight: 500;
+    color:#3AB0FF;
+}
+.red{
+    font-weight: 500;
+    color: #f7617f;
+}
+
+.Link:hover{
+    color:#f7617f;
+}
+.footImage{
+    display: flex;
+    gap: 5%;
+}
+.footImage>li{
+    text-align: center;
+    border:10px solid #565656;
+    width: 6%;
+    background-color: #565656;
+    font-size: 30px;
+    list-style: none;
+}
+.footImage>li:hover{
+    border-color: black;
+    background-color: black;
+}
+.foot-socials{
+    margin-left: 30%;
+}
