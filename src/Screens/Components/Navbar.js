@@ -1,8 +1,13 @@
 import React from "react"
-import {Link, useLocation} from "react-router-dom"
+import {Link, useLocation, useNavigate} from "react-router-dom"
 import "./styles/Navbar.css"
 export default function Nav(){
     let location=useLocation();
+    function Checkhome(){
+        if(location.pathname=="/"){
+            window.scrollTo(0,0);
+        }
+    }
     
     function isBlog(){
         if(location.pathname=="/"){
@@ -20,10 +25,10 @@ export default function Nav(){
         }
     }
     function scrolltoBlog(){
-        window.scrollTo(0,1450);
+        window.scrollTo(0,950);
     }
     function scrolltoProject(){
-        window.scrollTo(0,1450);
+        window.scrollTo(0,2320);
     }
     const [logo,setlogo]=React.useState(true)
     const [color,setcolor]=React.useState(false)
@@ -47,7 +52,7 @@ export default function Nav(){
     window.addEventListener('scroll', changecolor);
     return (
         <div className={home? `nav-home ${color? 'Navbar Navbar-bg':'Navbar Navbar-middle'}`:`${color? 'Navbar Navbar-bg':'Navbar Navbar-middle'}`}>
-            <Link to="/" className={logo?"Logo":"Logo-white"}><h1>Mridul Tiwari</h1></Link>
+            <Link to="/" className={logo?"Logo":"Logo-white"}><h1 onClick={Checkhome}>Mridul Tiwari</h1></Link>
             <ul className="Nav">
                 <li><Link to="/about" className="Link">About</Link></li>
                 {isBlog()}

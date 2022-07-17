@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 @-ms-viewport{
     width: device-width;
 }
@@ -32,9 +34,15 @@ body{
     display: flex;
     gap: 1rem;
 }*/
+.main-body{
+    background-color: #ffffff;
+}
 .footer{
-    padding: 2px 2px ;
-    width: 100%;
+    padding: 1% 0% ;
+    width: 100vw;
+    position:sticky;
+    bottom: 0;
+    z-index: -1;
     color: white;
     background-color: #282828;
 }/*

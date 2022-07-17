@@ -11,16 +11,17 @@ import Works from "./Works.js"
 export default function Home(){
     return (
         <div onLoad={window.scrollTo(0,0)}>
-            <div>
+            <div className="main-body">
+                <div className="Home-Body">
+                    <Header/>
+                    <Blogs/>
+                    <Skills/>
+                    <Services/>
+                    <Works/>
+                    
+                </div>
             </div>
-            <div className="Home-Body">
-                <Header/>
-                <Blogs/>
-                <Skills/>
-                <Services/>
-                <Works/>
-                
-            </div>
+            
             <div className="footer">
                 <Footer/>
             </div>
