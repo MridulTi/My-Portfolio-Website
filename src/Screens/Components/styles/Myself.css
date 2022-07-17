@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .intro{
     display: flex;
     gap: 1rem;

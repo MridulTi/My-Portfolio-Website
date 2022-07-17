@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .services{
     font-family: 'Raleway', sans-serif;
     padding: 10% 0%;
@@ -5,24 +8,27 @@
     color: white;
 }
 .services>h1{
+    font-size: 1.5rem;
     text-align: center;
 }
 .services>hr{
     background-color: #FF7E98;
-    border: 1.5px solid #FF7E98;
-    width: 10%;
+    border: 0.1rem solid #FF7E98;
+    width: 10vw;
 }
 .service-content-list>div{
     margin: 5% 2%;
     padding:1% 3% 1% 3% ;
-    width: 25%;
+    width: 30vw;
+    height: 25vh;
     background-color: #565656;
 }
 .service-content-list>div>p{
-    font-size: 17px;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 .service-content-list>div>h4{
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .service-content-list{
     justify-content: center;
@@ -34,16 +40,16 @@
 }
 .service-content-list>div>div{
     border-color: #3AB0FF;
-    width: 10%;
+    width: 10vw;
 }
 .services>button{
     border: 1px solid #FF7E98;
-    width: 18%;
-    height: 50px;
-    border-radius: 5px;
+    width: 18vw;
+    height: 5vh;
+    border-radius: 0.2rem;
     background-color: transparent;
     color: white;
-    font-size: 17px;
+    font-size: 1rem;
     margin-left: 41%;
 }
 .services>button:hover{

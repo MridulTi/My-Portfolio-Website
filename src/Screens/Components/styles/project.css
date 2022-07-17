@@ -1,21 +1,28 @@
+*{
+    box-sizing: border-box;
+}
 .projects{
+    width: 100vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     padding: 5% 0%;
+    background-color: #ffffff;
+    height: 60vh;
 }
 .projects>h1{
+    font-size: 1.5rem;
     text-align: center;
 }
 .projects>hr{
     background-color: #3AB0FF;
-    border: 2px solid #3AB0FF;
-    width: 12%;
+    border: 0.1rem solid #3AB0FF;
+    width: 15vw;
 }
 .collage-index{
     color: #565656;
-    opacity: 50%;
+    opacity: 0.5;
     margin-top: 5%;
-    font-size: 18px;
+    font-size: 1rem;
     letter-spacing: 1px;
     justify-content: center;
     display: flex;
