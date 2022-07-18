@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .Nav{
-    width: 100vw;
+    position: absolute;
+    right: 3em;
     display: flex;
     gap: 2rem;
     
@@ -17,7 +18,7 @@
     height: 5vh;
     background-color: #FF597A;
     opacity:0.9;
-    box-shadow: 0 1em 1sem -2em rgba(0,0,0,.2);
+    box-shadow: 0 1em 1em -2em rgba(0,0,0,.2);
 }
 .Navbar>ul{
     align-items:center;
@@ -72,7 +73,7 @@
     width: 100vw;
     top:0;
     display: flex;
-    gap: 35%;
+    /* gap: 35%; */
     position:fixed;
     width: 100vw;    
     height: 5vh;
@@ -82,6 +83,8 @@
 
 }
 .NAV{
+    position: absolute;
+    right: 3em;
     gap: 2rem;
     display: flex; 
 }

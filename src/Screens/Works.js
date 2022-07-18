@@ -16,7 +16,7 @@ export default function Works(){
                     <h3>Node-Js</h3>
                     <h3>Javascript</h3>
                 </div>
-                
+                <button>See More</button>
             </div>
         </div>
     )
