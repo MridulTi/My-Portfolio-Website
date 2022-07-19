@@ -4,6 +4,8 @@ import Header from "./Components/Header.js"
 import Nav from "./Components/NAV.js"
 import "./Components/styles/contact.css"
 export default function ContactUs(){
+    document.title="Mridul Tiwari | Contact Us";
+
     return (
         <div onLoad={window.scrollTo(0,0)}>
             <div className="main-body">

@@ -9,6 +9,7 @@ import Skills from "./Skills.js"
 import Services from "./Services.js"
 import Works from "./Works.js"
 export default function Home(){
+    document.title="Mridul Tiwari | Home";
     return (
         <div onLoad={window.scrollTo(0,0)}>
             <div className="main-body">

@@ -5,6 +5,8 @@ import Nav from "./Components/NAV.js"
 import Header from "./Components/Header.js"
 import AboutMenu from "./aboutmenu.js"
 export default function About(){
+    document.title="Mridul Tiwari | About";
+
     return (
         <div onLoad={window.scrollTo(0,0)}>
             <div className="main-body">
