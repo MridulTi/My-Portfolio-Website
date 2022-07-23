@@ -23,6 +23,12 @@
     height: 25vh;
     background-color: #565656;
 }
+.font-mail{
+    font-family: 'Raleway',sans-serif;
+    width: 3vw;
+    align-items: center;
+    font-size: 1.2rem;
+}
 .service-content-list>div>p{
     font-size: 1rem;
     line-height: 1.2rem;
@@ -43,9 +49,11 @@
     width: 10vw;
 }
 .services>button{
+    font-family: 'Raleway',sans-serif;
     border: 1px solid #FF7E98;
     width: 18vw;
     height: 5vh;
+    font-weight: 600;
     border-radius: 0.2rem;
     background-color: transparent;
     color: white;

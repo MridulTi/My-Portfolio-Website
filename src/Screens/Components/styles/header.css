@@ -76,3 +76,8 @@
     background-color: #F16984;
 
 }
+@media only screen and (min-width:1200px){
+    .banner-content{
+        padding: 20% 5%;
+    }
+}

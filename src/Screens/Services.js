@@ -1,4 +1,5 @@
 import React from "react"
+import {MdOutlineMail} from "react-icons/md";
 import ServiceCard from "./Components/List/ServiceCard"
 import SerData from "./Components/List/SerData"
 import Slider from "./Components/Slider.js"
@@ -20,7 +21,7 @@ export default function Services(){
                     <p>I build fast, SEO-friendly and fully-customized landing pages and blogs that you can easily edit yourself - no engineer required.</p>
                 </div>
             </div>
-            <button>Inquire by email M</button>
+            <button>Inquire by email <MdOutlineMail className="font-mail"/></button>
         </div>
     )
 }

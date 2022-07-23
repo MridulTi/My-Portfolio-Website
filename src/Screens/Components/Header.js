@@ -16,7 +16,7 @@ export default function Header(props){
         <div className="Banner">
             <Nav/>
             <div className="banner-content">
-                <div className="your-name container mx-auto">
+                <div className="your-name">
                 <p className="margin-top 10">Hi, I am </p>
                 <h1>Mridul Tiwari</h1>
                 </div>
