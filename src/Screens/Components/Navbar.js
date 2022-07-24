@@ -52,8 +52,8 @@ export default function Nav(){
     window.addEventListener('scroll', changecolor);
     return (
         <div className={home? `nav-home ${color? 'Navbar Navbar-bg':'Navbar Navbar-middle'}`:`${color? 'Navbar Navbar-bg':'Navbar Navbar-middle'}`}>
-            <Link to="/" className={logo?"Logo":"Logo-white"}><h1 onClick={Checkhome}>Mridul Tiwari</h1></Link>
-            <ul className="Nav">
+            <Link to="/" className={logo?"Logo py-2":"Logo-white py-2"}><h1 onClick={Checkhome}>Mridul Tiwari</h1></Link>
+            <ul className="Nav py-3">
                 <li><Link to="/about" className="Link">About</Link></li>
                 {isBlog()}
                 <li><Link to="/contactus" className="Link">Contact Us</Link></li>

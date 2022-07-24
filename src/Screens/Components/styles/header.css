@@ -14,23 +14,12 @@
     width: 100vw;
     padding: 35% 0%;
 }
-.your-name{
-    height: 0.1vh;
-    display: flex;
-    gap: 1%;
-    align-items: center;
-    justify-content: center;
-}
-.your-name>h1{
-    font-weight: 400;
-    font-size: 2.5rem;
-    color:#FF7E98;
+.yourname{
+    font-weight: 300;
     font-family: 'Raleway', sans-serif;
 }
-.your-name>p{
-    font-family: 'Inter', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
+.astred{
+    color:#FF7E98;
 }
 .banner-content>h2{
     line-height: 0.5rem;
