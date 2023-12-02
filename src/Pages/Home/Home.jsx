@@ -9,7 +9,6 @@ import { Link } from "react-router-dom"
 import { contribute, expertise, resource, services, skills } from "../../assets/lists/Cards"
 import { Cont, Contact, Expertise, Res, Services, Skills } from "../../Components/Cards"
 import { useInView } from "react-intersection-observer";
-import Bg_Particle from "../../Components/Backgrnd_particle"
 import Mridul from "../../assets/avatar/Mridul.webp"
 import TypewriterComponent from "typewriter-effect"
 export default function Home() {

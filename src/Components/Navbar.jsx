@@ -24,7 +24,8 @@ export default function Navbar(){
                     {/* <li></li> */}
                     <Link to="/blogs"><li>Blogs</li></Link>
                 </ul>
-                <a href="https://drive.google.com/file/d/1uJ4TpLI_-36ihZFNxo3MdIkK1l9SQTWK/view?usp=drive_link" target="_blank_"><button className="top-4 bg-sec-sec-grad px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button></a>
+                {/* <a href="https://drive.google.com/file/d/1uJ4TpLI_-36ihZFNxo3MdIkK1l9SQTWK/view?usp=drive_link" target="_blank_"><button className="top-4 bg-sec-sec-grad px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button></a> */}
+                <button className="top-4 opacity-50 bg-gray-400 px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button>
         </motion.div>
     )
 }
