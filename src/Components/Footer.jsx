@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import {BsFillEnvelopeFill, BsInstagram, BsLinkedin, BsMailbox, BsTwitter} from "react-icons/bs"
+import { FaHeartbeat } from "react-icons/fa";
 export default function Footer(){
     return(
         <div className="">
@@ -9,11 +10,11 @@ export default function Footer(){
                     <h1 className="text-4xl font-bold text-primary py-4"><Link to="/">{"{%Mridul%}"}</Link></h1>
                     <ul className="flex gap-3 text-2xl">
                         {/* Twitter */}
-                        <BsTwitter />
+                        <a href="https://x.com/Mridulti"><BsTwitter /></a>
                         {/* Instagram */}
-                        <BsInstagram/>
+                        <a href="https://www.instagram.com/mridulti/"><BsInstagram/></a>
                         {/* LinkedIn */}
-                        <BsLinkedin/>
+                        <a href="https://www.linkedin.com/in/mridulti"><BsLinkedin/></a>
                     </ul>
                     <h4 className="text-lg">Contact Me</h4>
                     <h4 className="text-lg font-medium">Email:mridultiwari2002@gmail.com</h4>
@@ -21,13 +22,13 @@ export default function Footer(){
                 </div>
                 <div className="grid grid-cols-1 py-4 place-items-end">
                     <h2 className="text-secondary text-2xl">Wanna work with me?</h2>
-                    <button href="#" className="bg-sec-sec-grad px-4 py-2 rounded-md text-lg flex place-items-center gap-2 font-semibold">Connect me on LinkedIn <BsLinkedin className="text-2xl"/></button>
-                    <button href="#" className="bg-sec-sec-grad px-4 py-2 rounded-md text-lg flex place-items-center gap-2 font-semibold">Send me an Email <BsFillEnvelopeFill className="text-2xl"/></button>
+                    <button href="https://www.linkedin.com/in/mridulti" className="bg-sec-sec-grad px-4 py-2 rounded-md text-lg flex place-items-center gap-2 font-semibold">Connect me on LinkedIn <BsLinkedin className="text-2xl"/></button>
+                    <Link to="/Contact"><button href="#" className="bg-sec-sec-grad px-4 py-2 rounded-md text-lg flex place-items-center gap-2 font-semibold">Send me an Email <BsFillEnvelopeFill className="text-2xl"/></button></Link>
                 </div>
             </div>
-            <div className="grid place-items-center text-primary py-2">
+            <div className="grid place-items-center text-primary py-1">
                 
-                <h5 className="text-white text-lg tracking-widest ">Made with {"<3"} by Mridul Tiwari</h5>
+                <h5 className="text-white text-lg tracking-widest flex gap-1 place-items-center ">Made with <span><FaHeartbeat className="text-red-500"/></span> by Mridul Tiwari</h5>
             </div>
             
         </div>

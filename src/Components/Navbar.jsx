@@ -17,15 +17,15 @@ export default function Navbar(){
         };
     },[lastYPos]);
     return(
-            <motion.div animate={{opacity:shouldShowActions?1:0}} transition={{opacity:{duration:0.2}}} initial={{opacity:1}}className="fixed top-0 grid grid-cols-3 place-items-center z-50 text-lg backdrop-grayscale backdrop-blur-md w-full border-b-2 py-3">
+            <motion.div animate={{opacity:shouldShowActions?1:0}} transition={{opacity:{duration:0.2}}} initial={{opacity:1}}className="fixed top-0 grid grid-cols-3 place-items-center z-50 text-lg backdrop-grayscale backdrop-blur-md w-full border-b-2 py-2">
                 <h1 className="text-xl font-semibold logo"><Link to="/">{"{%Mridul%}"}</Link></h1>
-                <ul className="flex gap-10">
+                <ul className="flex text-md gap-10">
                     <Link to="/Projects"><li>Projects</li></Link>
                     {/* <li></li> */}
                     <Link to="/blogs"><li>Blogs</li></Link>
                 </ul>
-                {/* <a href="https://drive.google.com/file/d/1uJ4TpLI_-36ihZFNxo3MdIkK1l9SQTWK/view?usp=drive_link" target="_blank_"><button className="top-4 bg-sec-sec-grad px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button></a> */}
-                <button className="top-4 opacity-50 bg-gray-400 px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button>
+                <a href="https://drive.google.com/file/d/15Ra8C0qmSjdyfXV_RM8LGWtQfM4lISTy/view?usp=sharing" target="_blank_"><button className="top-4 bg-sec-sec-grad px-8 text-tertiary py-1 drop-shadow-md w-fit text-md tracking-wider font-semibold ">Resume</button></a>
+                {/* <button className="top-4 opacity-50 bg-gray-400 px-8 text-tertiary py-2 drop-shadow-md w-fit text-md tracking-wider ">Resume</button> */}
         </motion.div>
     )
 }

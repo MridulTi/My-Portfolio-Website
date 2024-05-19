@@ -56,8 +56,8 @@ export default function Skill(){
 
             </div>
             <div className="px-24 grid grid-cols-1 place-items-center">
-                    <h1 className="text-4xl font-bold">Skills</h1>
-                    <div className="grid grid-cols-5 place-items-center xl:px-96">
+                    <h1 className="text-xl font-semibold">Skills</h1>
+                    <div className="grid grid-cols-5 place-items-center xl:px-72">
                         {skill}
                     </div>
                 </div>

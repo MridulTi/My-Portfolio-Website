@@ -17,12 +17,12 @@ export const Skills=function(props){
     return(
         <Link to={`/Skills/${props.slugs}`}>
             <div
-            className="py-8 px-4 grid place-items-center gap-2 text-center rounded-lg w-1/2"
+            className="p-2 grid place-items-center gap-2 text-center rounded-lg w-1/2"
             >
             <motion.div
             whileHover={{style:1.1}}
             whileTap={{style:0.8}}
-             className="border border-gray-300 w-32 h-32 rounded-full">
+             className="border border-gray-300 aspect-square w-24 rounded-full">
                 <img src={props.img} className="p-8"/>                
             </motion.div>
             <h1 className="font-semibold tracking-widest">{props.title}</h1>
@@ -34,7 +34,7 @@ export const Skills=function(props){
 export const Expertise=function(props){
     return(
         <Link to={`/Resources/${props.slugs}`}>
-            <motion.div className="relative w-96 h-64 text-white grid place-items-center text-center rounded-xl" style={{
+            <motion.div className="relative aspect-video w-[20vw] text-white grid place-items-center text-center rounded-xl" style={{
                 backgroundImage:`linear-gradient(to bottom,#ff886009 55%, #E4CAA9),url(${props.img})`,
                 backgroundPosition:"top",
                 backgroundRepeat:"no-repeat",
@@ -46,7 +46,7 @@ export const Expertise=function(props){
                     scale: 0.8,
                 }}>
                 <div className="absolute left-5 bottom-5 text-left">
-                <h1 className="text-2xl font-semibold ">{props.title}</h1>
+                <h1 className="text-xl font-semibold ">{props.title}</h1>
                 <p className="text-sm ">{props.tag}</p>
                 </div>
                 

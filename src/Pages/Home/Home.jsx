@@ -39,7 +39,7 @@ export default function Home() {
             />
         )
     })
-    const resources = resource.map((data) => {
+    const resources = resource.slice(0, 3).map((data) => {
         return (
             <Expertise
                 {...data}
@@ -84,9 +84,9 @@ export default function Home() {
                     <div style={styles.content}>
                     <div className="h-[100vh] grid place-items-center ">
                         <div className="text-center">
-                        <h5 className="text-2xl  font-bold tracking-widest leading-3">Hi! I am</h5>
-                        <h2 className="text-4xl md:text-5xl font-extrabold leading-10">MRIDUL TIWARI</h2>
-                        <div className="text-3xl  font-bold leading-10 tracking-wider">
+                        <h5 className="text-xl  font-bold tracking-widest leading-3">Hi! I am</h5>
+                        <h2 className="text-3xl md:text-5xl font-extrabold leading-10">MRIDUL TIWARI</h2>
+                        <div className="text-2xl  font-bold leading-10 tracking-wider">
                             <TypewriterComponent
                                 onInit={(typewriter)=>{
                                     typewriter
@@ -112,16 +112,16 @@ export default function Home() {
                     
                     <div id="about" className="h-[100vh] grid place-items-center ">
                     {/* <Bg_Particle/> */}
-                <div className="grid xl:grid-cols-[30vw_30vw] lg:grid-cols-2 md:grid-rows-2 px-12 md:px-24 md:gap-10 place-items-center">
-                    <div className="">
-                        <h5 className="text-2xl  font-bold tracking-widest leading-3">Hi! I am</h5>
-                        <h2 className="text-4xl xl:text-5xl font-extrabold leading-10 ">MRIDUL TIWARI</h2>
-                        <h5 className="text-3xl  font-bold leading-10 tracking-wider">Software Engineer</h5>
-                        <p className="text-md md:text-lg xl:tracking-wider lg:tracking-normal">
+                <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-rows-2 px-12 md:px-24 md:gap-10 place-items-center py-32">
+                    <div className="w-[30vw]">
+                        <h5 className="text-xl  font-bold tracking-widest leading-3">Hi! I am</h5>
+                        <h2 className="text-2xl xl:text-5xl font-extrabold leading-10 ">MRIDUL TIWARI</h2>
+                        <h5 className="text-lg  font-bold leading-10 tracking-wider">Software Engineer</h5>
+                        <p className="text-sm md:text-md xl:tracking-wider lg:tracking-normal">
                             captivated by UI Design and Frontend Development. My path is marked by hackathons, dynamic projects in JavaScript and Python, and an unyielding eye for detail. My creations blend aesthetics with functionality, and I thrive on staying ahead of trends. Join me on this journey of innovation and meticulous craftsmanship that shapes the digital landscape.So, welcome to my world of innovation, precision, and boundless enthusiasm. Join me as we embark on a journey where lines of code transform into captivating experiences, and technology becomes a canvas for limitless creativity.
                         </p>
                         <Link to="/Contact
-                        "><motion.button className="px-10 py-3 text-[#2B2A4C] drop-shadow-lg bg-sec-sec-grad text-xl tracking-widest "
+                        "><motion.button className="px-8 my-6 py-2 text-[#2B2A4C] drop-shadow-lg bg-sec-sec-grad text-lg font-bold tracking-widest "
                             whileTap={{ scale: 0.8 }}
                             whileHover={{ scale: 0.95 }}
                         >Hire Me!</motion.button></Link>
@@ -133,7 +133,7 @@ export default function Home() {
 
                         </div>
                     </div>
-                    <motion.div className="xl:p-72 lg:p-52 md:p-52 p-32 bg-neutral-gray rounded-2xl rotate-6"
+                    <motion.div className="xl:p-52 lg:p-46 md:p-46 p-24 bg-neutral-gray rounded-2xl rotate-6"
                         style={{
                             backgroundImage: `url(${Work})`,
                             backgroundPosition: "center",
@@ -162,16 +162,16 @@ export default function Home() {
                     </div>
                 </div> */}
                 {/* Skills */}
-                <div className="px-24 grid grid-cols-1 place-items-center">
+                {/* <div className="px-24 grid grid-cols-1 place-items-center">
                     <h1 className="text-4xl font-bold">Skills</h1>
-                    <div className="grid lg:grid-cols-5 md:grid-cols-3 place-items-center xl:grid-cols-[8vw_8vw_8vw_8vw_8vw]">
+                    <div className="grid lg:grid-cols-5 md:grid-cols-3 place-items-center xl:grid-cols-5">
                         {skill}
                     </div>
-                </div>
+                </div> */}
                 {/* Contribution */}
                 <div className="px-24 grid grid-cols-1 gap-10 place-items-center">
                     <h1 className="text-4xl font-bold">Contribution</h1>
-                    <div className="grid grid-rows-2 xl:grid-cols-2 xl:grid-rows-1 gap-8 place-items-center px-96">
+                    <div className="grid grid-rows-1 xl:grid-cols-2 gap-12 place-items-center">
                         {contri}
                     </div>
                     {/* <button className="px-8 py-2 bg-sec-sec-grad ">See More!</button> */}
@@ -180,10 +180,10 @@ export default function Home() {
                 {/* Projects */}
                 <div className="px-24 grid grid-cols-1 gap-10 place-items-center">
                     <h1 className="text-4xl font-bold">Projects</h1>
-                    <div className="grid grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 gap-16 place-items-center px-96">
+                    <div className="grid grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 gap-16 place-items-center">
                         {resources}
                     </div>
-                    <Link to="/Projects"><button className="px-8 py-2 drop-shadow-lg bg-sec-sec-grad ">See More!</button></Link>
+                    <Link to="/Projects"><motion.button whileHover={{scale:1.05}} whileTap={{ scale: 0.8 }} className="px-8 py-1 drop-shadow-lg bg-sec-sec-grad text-md font-semibold text-white ">See More!</motion.button></Link>
                 </div>
                 {/* Expertise */}
                 <div className="px-24 grid grid-cols-1 gap-10 place-items-center">
@@ -191,14 +191,8 @@ export default function Home() {
                     <div className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-12">
                         {expert}
                     </div>
-                    <div className="w-[72vw] h-96" style={{
-                        backgroundImage:`url(${DUCK})`,
-                        backgroundSize:"contain",
-                        backgroundRepeat:"no-repeat",
-                        backgroundPosition:"center"
-                    }}>
+                    <img src={DUCK} className="aspect-video h-80" />
                 
-                    </div>
                 </div>
                 
                 

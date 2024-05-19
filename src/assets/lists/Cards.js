@@ -16,6 +16,8 @@ import BN from "../logo/blog.png"
 import IMG1 from "../project/1.jpg"
 import IMG2 from "../project/2.jpg"
 import IMG3 from "../project/3.jpg"
+import IMG4 from "../project/Code/4.png"
+import Shark1 from "../project/Code/Sharks/1.png"
 
 // NON CODE IMAGEs
 import NC1 from "../project/NC/1.jpg"
@@ -103,6 +105,43 @@ export const skills=[
     },
 ]
 export const resource=[
+    {
+        "id":"1",
+        "title":"WatchGuard",
+        "img":IMG4,
+        "heading":"WatchGuard",
+        "tagline":"Enhanced Surveillance software capable of identifying and alerting authorities about any unusual or suspicious behavior within a monitored geographic area.",
+        "problem":"Create a surveillance software system capable of automatically identifying and alerting authorities to any unusual or suspicious behavior within a monitored geographic area. Upon detecting such activities, the system will trigger an immediate alarm and initiate a seamless reporting process to the nearby police station.",
+        "solution":"The technology may quickly identify many kinds of threats, such as armed revolt, unlawful access, or rule infractions, by analyzing live footage from surveillance cameras. When a threat is detected, the system will make sure that everyone is informed by categorically customizing notifications according on how serious the threat is. For example, instant WhatsApp notifications of armed insurrection will be sent to all workers, students, and employees when immediate action is needed. The notifications will include live imagery of the criminal. On the other hand, through designated routes, less critical matters will be communicated to the local police authority or the security department of the organisation.",
+        "goals":[
+            "The project's goal is to improve surveillance systems by automatically identifying dangers and rule-breaking actions using Python backend technologies and machine learning (ML)."
+        ],
+        "conclusion":"Enhanced Surveillance software capable of identifying and alerting authorities about any unusual or suspicious behavior within a monitored geographic area.",
+        "github":"https://github.com/AzeemIdrisi/WatchGuard",
+        "slugs":"WatchGuard",
+        "lang":"[ReactJS, TailwindCSS,Django,ML,YOLOv8]",
+        "link":"/WatchGuard",
+    },
+    {
+        "id":"1",
+        "title":"Shark Feed",
+        "img":Shark1,
+        "heading":"Shark Feed",
+        "tagline":"A diverse community of entrepreneurs, investors, and collaborators can connect, network, and foster valuable partnerships",
+        "intro":"Aspiring entrepreneurs lack a platform specifically designed to showcase their diverse startup ideas to a broad audience of potential investors, mentors, and collaborators.",
+        "problem":"TRADITIONAL METHODS : LIMITED, EXPENSIVE, EXCLUSIVE; SOCIAL MEDIA : SCATTERED, UNTARGETE ; EXISTING PLATFORMS : NICHE ; NEED FOR VIRTUAL STARTUP PITCHING HAS BECOME PARAMOUNT (POST PANDEMIC)",
+        "solution":"Bringing the concept of Shark Tank to life as a social media platform where investors and companies can communicate, bid and get invested and seen by Sharks i.e. Unicorns",
+        "goals":[
+            "OPEN PITCHING: Startups of all backgrounds and industries can submit detailed pitches outlining their innovative ideas, business models, and progress.",
+            "TARGETED INVESTMENTS: Investors and mentors can easily discover promising startups based on their interests and investment criteria.",
+            "CREATIVE ECOSYSTEM: A diverse community of entrepreneurs, investors, and collaborators can connect, network, and foster valuable partnerships.",
+        ],
+        "conclusion":"A diverse community of entrepreneurs, investors, and collaborators can connect, network, and foster valuable partnerships",
+        "github":"https://github.com/MridulTi/Shark-Feed",
+        "slugs":"Shark",
+        "lang":"[ReactJS, TailwindCSS, ExpressJS , MongoDB]",
+        "link":"/Shark",
+    },
     {
         "id":"1",
         "title":"AMK Searching App",

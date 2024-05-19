@@ -11,7 +11,7 @@ export default function Resources(){
     const{heading,tagline,intro,problem,img,solution,goals,IMGs,conclusion,github,CONC}=event;
     return(
         <div className="main py-20 grid gap-16 place-items-center">
-            <div className=" bg-neutral-gray lg:px-72 lg:py-56 xl:p-52 font-semibold text-3xl w-1/4 rounded-3xl"
+            <div className=" bg-neutral-gray lg:px-72 lg:py-56 xl:p-52 aspect-video font-semibold text-3xl "
                 style={{
                     backgroundImage:`url(${img})`,
                     backgroundPosition:"center",
