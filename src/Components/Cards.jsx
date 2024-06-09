@@ -34,7 +34,7 @@ export const Skills=function(props){
 export const Expertise=function(props){
     return(
         <Link to={`/Resources/${props.slugs}`}>
-            <motion.div className="relative aspect-video w-[20vw] text-white grid place-items-center text-center rounded-xl" style={{
+            <motion.div className="relative aspect-video w-80 md:w-[30rem] lg:w-[20rem] text-white grid place-items-center text-center rounded-xl" style={{
                 backgroundImage:`linear-gradient(to bottom,#ff886009 55%, #E4CAA9),url(${props.img})`,
                 backgroundPosition:"top",
                 backgroundRepeat:"no-repeat",
@@ -46,7 +46,7 @@ export const Expertise=function(props){
                     scale: 0.8,
                 }}>
                 <div className="absolute left-5 bottom-5 text-left">
-                <h1 className="text-xl font-semibold ">{props.title}</h1>
+                <h1 className="text-2xl lg:text-xl font-semibold ">{props.title}</h1>
                 <p className="text-sm ">{props.tag}</p>
                 </div>
                 
@@ -80,7 +80,7 @@ export const Res=function(props){
 export const Cont=function(props){
     return(
             <a href={props.href} >
-                <motion.div className="bg-neutral-gray relative w-96 h-72 text-white grid place-items-end p-4 rounded-xl" 
+                <motion.div className="bg-neutral-gray relative w-72 md:w-96 h-64 md:h-72 text-white grid place-items-end p-4 rounded-xl" 
             style={{
                 backgroundImage:`linear-gradient(to bottom,#ff886009 20%, #402E32),url(${props.img})`,
                 backgroundPosition:"center",
@@ -104,7 +104,7 @@ export const Cont=function(props){
 export const BlogsC=function(props){
     return(
             <a href={props.href} target="_blank_" >
-                <div className="relative w-11/12">
+                <div className="relative px-4 md:px-24 lg:px-6">
                 <motion.div className="bg-transparent relative h-fit text-white grid place-items-end" 
             style={{
                 // backgroundImage:`linear-gradient(to bottom,#ff886009 20%, #402E32),url(${props.img})`,
@@ -146,7 +146,7 @@ export const Contact=function(){
     return(
         <div className="grid place-items-center bg-white drop-shadow-2xl gap-2 py-5 px-5 rounded-3xl">
             <h1 className="font-semibold text-2xl">Got a Project? Let's Talk</h1>
-            <p className="w-1/2 text-center">I’m available on selected freelance projects and speaking engagements. My time books quickly but I will get back to you within 3 working days. Thank you!</p>
+            <p className="md:w-1/2 text-center">I’m available on selected freelance projects and speaking engagements. My time books quickly but I will get back to you within 3 working days. Thank you!</p>
             <Link to="/Contact"><motion.button
             whileTap={{ scale: 0.8 }}
             whileHover={{ scale: 1.1 }}

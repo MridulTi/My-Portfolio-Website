@@ -36,7 +36,7 @@ export default function NonCode(){
     })
     return(
         <div className="py-16 grid place-items-center gap-10">
-            <div className="grid grid-cols-2 px-24 place-items-center">
+            <div className="grid md:grid-cols-2 md:px-24 place-items-center">
                 <img src={Happy} alt="happy" className="w-[45vw]"/>
                 
                 <div className="w-3/4 text-tertiary">

@@ -11,7 +11,7 @@ export default function Resources(){
     const{heading,tagline,intro,problem,img,solution,goals,IMGs,conclusion,github,CONC}=event;
     return(
         <div className="main py-20 grid gap-16 place-items-center">
-            <div className=" bg-neutral-gray lg:px-72 lg:py-56 xl:p-52 aspect-video font-semibold text-3xl "
+            <div className=" bg-neutral-gray p-24 lg:px-72 lg:py-56 xl:p-52 aspect-video font-semibold text-3xl "
                 style={{
                     backgroundImage:`url(${img})`,
                     backgroundPosition:"center",
@@ -19,10 +19,10 @@ export default function Resources(){
                     backgroundSize:"cover"
                 }}
             ></div>
-            <div  className="lg:w-4/5 xl:w-1/2">
+            <div  className="w-4/5 xl:w-1/2">
                 <a href={github} target="_blank_"><p className="flex gap-2 place-items-center font-semibold text-xl text-sky-600">Github<FiExternalLink/></p></a>
                 <h1 className="text-2xl font-semibold text-center">OVERVIEW.</h1>
-                <div className="text-5xl pt-4 font-extrabold text-center">
+                <div className="text-4xl md:text-5xl pt-4 font-extrabold text-center">
                     <TypewriterComponent
                         onInit={(typewriter)=>{
                             typewriter
@@ -31,18 +31,18 @@ export default function Resources(){
                         }}
                     />
                 </div>
-                <p className="text-lg py-2 text-center">{tagline}</p>
+                <p className="md:text-lg py-2 text-center">{tagline}</p>
             </div>
             
-            <div className="lg:w-4/5 xl:w-1/2">
+            <div className="w-4/5 xl:w-1/2">
                 <h1 className="text-2xl font-semibold">INTRODUCTION.</h1>
                 <p>{intro}</p>
             </div>
-            <div className="lg:w-4/5 xl:w-1/2">
+            <div className="w-4/5 xl:w-1/2">
                 <h1 className="text-2xl font-semibold">PROBLEM.</h1>
                 <p>{problem}</p>
             </div>
-            <div className="lg:w-4/5 xl:w-1/2">
+            <div className="w-4/5 xl:w-1/2">
                 <h1 className="text-2xl font-semibold">MY SOLUTION.</h1>
                 <p>{solution}</p>
             </div>
@@ -52,7 +52,7 @@ export default function Resources(){
                 <div className="p-32 bg-neutral-gray rounded-3xl"></div>
                 <div className="p-32 bg-neutral-gray rounded-3xl"></div>
             </div>}
-            {goals&& <div className="lg:w-4/5 xl:w-1/2">
+            {goals&& <div className="w-4/5 xl:w-1/2">
                 <h1 className="text-2xl font-semibold">GOALS.</h1>
                 <div className="grid place-items-center gap-12">
                     <ul>
@@ -64,7 +64,7 @@ export default function Resources(){
                     </ul>
                 </div>
             </div>}
-            <div className="lg:w-4/5 xl:w-1/2">
+            <div className="w-4/5 xl:w-1/2">
                 <h1 className="text-2xl font-semibold">CONCLUSION.</h1>
                 <p>{conclusion}</p>
             </div>

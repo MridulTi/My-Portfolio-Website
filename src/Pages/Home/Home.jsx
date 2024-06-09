@@ -112,12 +112,12 @@ export default function Home() {
                     
                     <div id="about" className="h-[100vh] grid place-items-center ">
                     {/* <Bg_Particle/> */}
-                <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-rows-2 px-12 md:px-24 md:gap-10 place-items-center py-32">
-                    <div className="w-[30vw]">
+                <div className="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-rows-2 px-12 md:px-24 md:gap-10 place-items-center md:py-32">
+                    <div className="xl:w-[30vw]">
                         <h5 className="text-xl  font-bold tracking-widest leading-3">Hi! I am</h5>
                         <h2 className="text-2xl xl:text-5xl font-extrabold leading-10 ">MRIDUL TIWARI</h2>
                         <h5 className="text-lg  font-bold leading-10 tracking-wider">Software Engineer</h5>
-                        <p className="text-sm md:text-md xl:tracking-wider lg:tracking-normal">
+                        <p className="text-lg lg:text-md xl:tracking-wider lg:tracking-normal">
                             captivated by UI Design and Frontend Development. My path is marked by hackathons, dynamic projects in JavaScript and Python, and an unyielding eye for detail. My creations blend aesthetics with functionality, and I thrive on staying ahead of trends. Join me on this journey of innovation and meticulous craftsmanship that shapes the digital landscape.So, welcome to my world of innovation, precision, and boundless enthusiasm. Join me as we embark on a journey where lines of code transform into captivating experiences, and technology becomes a canvas for limitless creativity.
                         </p>
                         <Link to="/Contact
@@ -133,7 +133,7 @@ export default function Home() {
 
                         </div>
                     </div>
-                    <motion.div className="xl:p-52 lg:p-46 md:p-46 p-24 bg-neutral-gray rounded-2xl rotate-6"
+                    <motion.div className="hidden md:block xl:p-52 lg:p-46 md:p-48 p-48 bg-neutral-gray rounded-2xl rotate-6"
                         style={{
                             backgroundImage: `url(${Work})`,
                             backgroundPosition: "center",
@@ -183,15 +183,15 @@ export default function Home() {
                     <div className="grid grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 gap-16 place-items-center">
                         {resources}
                     </div>
-                    <Link to="/Projects"><motion.button whileHover={{scale:1.05}} whileTap={{ scale: 0.8 }} className="px-8 py-1 drop-shadow-lg bg-sec-sec-grad text-md font-semibold text-white ">See More!</motion.button></Link>
+                    <Link to="/Projects"><motion.button whileHover={{scale:1.05}} whileTap={{ scale: 0.8 }} className="px-6 py-2 md:px-12 md:py-6 text-xl md:text-2xl lg:px-8 lg:py-1 drop-shadow-lg bg-sec-sec-grad lg:text-md font-semibold text-white ">See More!</motion.button></Link>
                 </div>
                 {/* Expertise */}
                 <div className="px-24 grid grid-cols-1 gap-10 place-items-center">
-                    <h1 className="text-4xl font-bold">Expertise</h1>
-                    <div className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-12">
+                    <h1 className="hidden sm:block text-4xl font-bold">Expertise</h1>
+                    <div className="hidden sm:block grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-12">
                         {expert}
                     </div>
-                    <img src={DUCK} className="aspect-video h-80" />
+                    <img src={DUCK} className="aspect-video md:h-80" />
                 
                 </div>
                 
