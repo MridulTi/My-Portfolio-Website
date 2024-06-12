@@ -6,8 +6,8 @@ import HappyB1 from "../../assets/avatar/happy/happy_blush1.png"
 import HappyB2 from "../../assets/avatar/happy/happy_blush2.png"
 import HappyN from "../../assets/avatar/happy/happy_no.png"
 import React from "react"
-import { Contact, Cs, Expertise, WP } from "../../Components/Cards"
-import { CS, NCWP, resource } from "../../assets/lists/Cards"
+import { Contact, Cs, Expertise, Posts, WP } from "../../Components/Cards"
+import { CS, NCWP, linkedin, resource } from "../../assets/lists/Cards"
 import TypewriterComponent from "typewriter-effect"
 export default function NonCode(){
     window.scroll(0, 0)
@@ -27,9 +27,9 @@ export default function NonCode(){
             />
         )
     })
-    const project=resource.map(data=>{
+    const project=linkedin.map(data=>{
         return(
-            <Expertise
+            <Posts
             {...data}
             />
         )
@@ -60,8 +60,8 @@ export default function NonCode(){
                 {NcodeWP}
                 {/* CASE STUDIES */}
             <div className="py-12 grid place-items-center">
-                <h1 className=" text-3xl py-5 font-semibold text-tertiary">Case Studies</h1>
-                <div className="grid grid-cols-3 gap-10">
+                <h1 className=" text-3xl py-5 font-semibold text-tertiary">UI Practice</h1>
+                <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 place-items-center">
                     {project}
                 </div>
             </div>

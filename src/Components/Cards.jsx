@@ -133,13 +133,31 @@ export const BlogsC=function(props){
 }
 export const Posts=function(props){
     return(
-        <div className="bg-neutral-gray py-8 px-12 grid place-items-center text-center gap-2 rounded-lg">
-            <div className="bg-primary w-16 h-16 rounded-full">
+        <a href={props.link} target="_blank_" >
+                <div className="relative px-4 md:px-24 lg:px-6">
+                <motion.div className="bg-transparent relative h-fit text-white grid place-items-end" 
+            style={{
+                // backgroundImage:`linear-gradient(to bottom,#ff886009 20%, #402E32),url(${props.img})`,
+                backgroundPosition:"center",
+                backgroundRepeat:"no-repeat",
+                boxShadow:"5px 5px 10px 2px rgba(0, 0, 0,0.4)",
+                backgroundSize:"cover"
+                }}
+                whileHover={{ marginTop:"-2%",marginBottom:"2%"}}
+                whileTap={{
+                    scale: 0.8,
+                }}
+                >
+                <LazyLoadImage src={props.img} className="h-fit w-96 rounded-inherit" />
+                {/* <div className="z-10 w-full h-full bg-neutral-gray"></div> */}
+                <h1 className="text-2xl font-semibold absolute left-5 bottom-5">{props.title}</h1>
+                {/* <h1 className="text-xs  absolute left-5 bottom-5">{props.info}</h1> */}
+                {/* <p className="text-sm">{props.lang}</p> */}
+            </motion.div>
 
-            </div>
-            <h1 className="text-2xl font-semibold">{props.title}</h1>
-            <p className="text-sm">{props.info}</p>
-        </div>
+                </div>
+                
+            </a>
     )
 }
 export const Contact=function(){

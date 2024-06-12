@@ -104,6 +104,29 @@ export const skills=[
 
     },
 ]
+import LI1 from "../../assets/project/NW-work/Spotify.jpg"
+import LI2 from "../../assets/project/NW-work/Discord-404.jpg"
+import LI3 from "../../assets/project/NW-work/Twinds.jpg"
+export const linkedin=[
+    {
+        id:1,
+        "img":LI1,
+        "title":"Spotify",
+        "link":"https://www.linkedin.com/posts/mridulti_dailyui-dailyuichallenge-uidesign-activity-7151226380398026752-nKrc?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        id:1,
+        "img":LI2,
+        "title":"Discord",
+        "link":"https://www.linkedin.com/posts/mridulti_dailyuichallenge-dailyui-uidesign-activity-7150845444930048000-ND81?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        id:1,
+        "img":LI3,
+        "title":"Inswitter",
+        "link":"https://www.linkedin.com/posts/mridulti_uidesign-uiuxdesign-activity-7165015287560359937-PUCg?utm_source=share&utm_medium=member_desktop"
+    },
+]
 export const resource=[
     {
         "id":"1",
