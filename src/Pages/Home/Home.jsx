@@ -188,7 +188,7 @@ export default function Home() {
                 {/* Expertise */}
                 <div className="px-24 grid grid-cols-1 gap-10 place-items-center">
                     <h1 className="hidden sm:block text-4xl font-bold">Expertise</h1>
-                    <div className="hidden sm:block grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-12">
+                    <div className="hidden sm:grid grid grid-cols-1 lg:grid-cols-2 gap-12">
                         {expert}
                     </div>
                     <img src={DUCK} className="aspect-video md:h-80" />
