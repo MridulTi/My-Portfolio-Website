@@ -47,6 +47,15 @@ export const projectList = [
       techstacks:"react,express,mongodb",
       "subtitle": "Tokenized Rewards for Enhanced Brand Loyalty",
       "description": "Developed Level Coin with Diamante Blockchain to revolutionize brand loyalty programs by integrating personalized tasks and tokenized rewards. The platform creates personalized interest categories for users, partnering with leading brands and events to offer tailored activities. Users earn Level Coins by engaging in tasks and events, which can be redeemed for exclusive rewards. The program aims to align rewards closely with users’ interests, enhancing outreach and engagement."
+    },
+    {
+      "id": 6,
+      "img": "empty",
+      "title": "Image Formatter",
+      link:"https://github.com/MridulTi/Image_Formatter",
+      techstacks:"react,flask",
+      "subtitle": "Convert Image/PDF to other formats and edit pages from PDF",
+      "description": "Basic Image format converter , convert Images to PDF and remove pages from PDF"
     }
   ];
   
