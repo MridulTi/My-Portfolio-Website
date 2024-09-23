@@ -56,6 +56,24 @@ export const projectList = [
       techstacks:"react,flask",
       "subtitle": "Convert Image/PDF to other formats and edit pages from PDF",
       "description": "Basic Image format converter , convert Images to PDF and remove pages from PDF"
+    },
+    {
+      "id": 7,
+      "img": "empty",
+      "title": "RT WhiteBoard",
+      link:"https://github.com/MridulTi/RT-WhiteBoard",
+      techstacks:"react,express,socket",
+      "subtitle": "Design and collaborate with your team in real-time whiteboarding sessions",
+      "description": "Real Time Whiteboard is a collaborative web-based tool where multiple users can join a session and collaborate on work in real time. Users can also create their own private boards to work individually. The project is built with Keycloak for authentication, React for the front-end, and WebSocket for real-time collaboration."
+    },
+    {
+      "id": 8,
+      "img": "empty",
+      "title": "CompCompiler",
+      link:"https://github.com/MridulTi/CompCompiler",
+      techstacks:"next,tailwindcss",
+      "subtitle": "A Next-Generation Coding Competition Platform",
+      "description": "An innovative coding competition platform that goes beyond traditional coding challenges. It offers a comprehensive and engaging experience for users, with features such as real-time collaboration, gamification, customized challenge difficulty, enhanced learning and feedback,"
     }
   ];
   
