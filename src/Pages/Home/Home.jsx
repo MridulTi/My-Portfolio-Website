@@ -192,7 +192,7 @@ function Home() {
                     <h1 className='font-serif text-4xl md:text-5xl lg:text-6xl'>Projects.</h1>
                     <div className='grid place-items-center gap-6 p-2'>
                         {
-                            projectList.map(data => (
+                            projectList.reverse().map(data => (
                                 <Cards
                                     {...data}
                                     key={data.id}
