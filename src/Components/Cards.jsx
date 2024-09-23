@@ -23,7 +23,7 @@ function Cards(props) {
                     <h1 className='font-bold'>{props.title}</h1>
                     <h1 className='italic text-neutral-300'>{props.subtitle}</h1>
                     <h1 className='font-extralight text-neutral-400'>{props.description}</h1>
-                    <img className='w-32 py-2' src={`https://skillicons.dev/icons?i=${props.techstacks}&theme=dark`} />  
+                    <img loading='lazy' className='w-32 py-2' src={`https://skillicons.dev/icons?i=${props.techstacks}&theme=dark`} />  
 
                 </div>
             </motion.div>

@@ -116,7 +116,7 @@ function Home() {
             </div>
             <div className='divide divide-y-2 divide-neutral-300 select-none'>
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 place-items-center px-4 md:px-12 lg:px-52 text-black bg-neutral-200 py-12'>
-                    <img className='w-52 md:w-72 lg:w-96 object-contain' src={PP} alt='Profile' />
+                    <img loading='lazy' className='w-52 md:w-72 lg:w-96 object-contain' src={PP} alt='Profile' />
                     <div className='text-center md:text-right w-full md:w-8/12 p-4 '>
                         <h1 className='text-4xl md:text-5xl lg:text-6xl font-serif'>Hello.</h1>
                         <p className='text-base  text-justify'>
@@ -133,57 +133,57 @@ function Home() {
                     <div className='grid gap-4 place-items-center'>
                         <h1 className='text-xl md:text-2xl'>Programming Languages</h1>
                         <div className='grid grid-flow-col gap-4 justify-center flex-wrap'>
-                            <img src="https://skillicons.dev/icons?i=c" alt='C' />
-                            <img src="https://skillicons.dev/icons?i=python" alt='Python' />
-                            <img src="https://skillicons.dev/icons?i=javascript" alt='JavaScript' />
-                            <img src="https://skillicons.dev/icons?i=go" alt='Go' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=c" alt='C' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=python" alt='Python' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=javascript" alt='JavaScript' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=go" alt='Go' />
                         </div>
                     </div>
                     <div className='grid gap-4 place-items-center'>
                         <h1 className='text-xl md:text-2xl'>Web Development</h1>
                         <div className='grid grid-flow-col gap-4 justify-center flex-wrap'>
-                            <img src="https://skillicons.dev/icons?i=django" alt='Django' />
-                            <img src="https://skillicons.dev/icons?i=flask" alt='Flask' />
-                            <img src="https://skillicons.dev/icons?i=html" alt='HTML' />
-                            <img src="https://skillicons.dev/icons?i=css" alt='CSS' />
-                            <img src="https://skillicons.dev/icons?i=bootstrap" alt='Bootstrap' />
-                            <img src="https://skillicons.dev/icons?i=jquery" alt='jQuery' />
-                            <img src="https://skillicons.dev/icons?i=tailwindcss" alt='TailwindCSS' />
-                            <img src="https://skillicons.dev/icons?i=react" alt='React' />
-                            <img src="https://skillicons.dev/icons?i=vite" alt='Vite' />
-                            <img src="https://skillicons.dev/icons?i=nodejs" alt='Node.js' />
-                            <img src="https://skillicons.dev/icons?i=express" alt='Express' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=django" alt='Django' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=flask" alt='Flask' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=html" alt='HTML' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=css" alt='CSS' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=bootstrap" alt='Bootstrap' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=jquery" alt='jQuery' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=tailwindcss" alt='TailwindCSS' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=react" alt='React' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=vite" alt='Vite' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=nodejs" alt='Node.js' />
+                            <img loading='lazy' src="https://skillicons.dev/icons?i=express" alt='Express' />
                         </div>
                     </div>
                     <div className='flex flex-col md:flex-row gap-8 w-full'>
                         <div className='grid gap-4 place-items-center w-full'>
                             <h1 className='text-xl md:text-2xl'>App Development</h1>
                             <div className='flex justify-center gap-4 flex-wrap'>
-                                <img src="https://skillicons.dev/icons?i=react&theme=light" alt='React' />
+                                <img loading='lazy' src="https://skillicons.dev/icons?i=react&theme=light" alt='React' />
                                 {/* <img src="https://skillicons.dev/icons?i=flutter" alt='Flutter'/> */}
                             </div>
                         </div>
                         <div className='grid gap-4 place-items-center w-full'>
                             <h1 className='text-xl md:text-2xl'>Databases</h1>
                             <div className='flex justify-center gap-4 flex-wrap'>
-                                <img src="https://skillicons.dev/icons?i=mongodb" alt='MongoDB' />
-                                <img src="https://skillicons.dev/icons?i=mysql" alt='MySQL' />
-                                <img src="https://skillicons.dev/icons?i=sqlite" alt='SQLite' />
+                                <img loading='lazy' src="https://skillicons.dev/icons?i=mongodb" alt='MongoDB' />
+                                <img loading='lazy' src="https://skillicons.dev/icons?i=mysql" alt='MySQL' />
+                                <img loading='lazy' src="https://skillicons.dev/icons?i=sqlite" alt='SQLite' />
                             </div>
                         </div>
                     </div>
                     <div className='grid gap-4 place-items-center'>
                         <h1 className='text-xl md:text-2xl'>Tools</h1>
                         <div className='grid grid-flow-col gap-4 justify-center flex-wrap'>
-                            <img src="https://skillicons.dev/icons?i=git" alt='Git' />
-                            <img src="https://skillicons.dev/icons?i=github" alt='GitHub' />
-                            <img src="https://skillicons.dev/icons?i=vscode" alt='VSCode' />
-                            <img src="https://skillicons.dev/icons?i=postman" alt='Postman' />
-                            <img src="https://skillicons.dev/icons?i=pytorch" alt='PyTorch' />
-                            <img src="https://skillicons.dev/icons?i=tensorflow" alt='TensorFlow' />
-                            <img src="https://skillicons.dev/icons?i=npm" alt='NPM' />
-                            <img src="https://skillicons.dev/icons?i=webflow" alt='Webflow' />
-                            <img src="https://skillicons.dev/icons?i=photoshop" alt='Photoshop' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=git" alt='Git' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=github" alt='GitHub' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=vscode" alt='VSCode' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=postman" alt='Postman' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=pytorch" alt='PyTorch' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=tensorflow" alt='TensorFlow' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=npm" alt='NPM' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=webflow" alt='Webflow' />
+                            <img loading="lazy" src="https://skillicons.dev/icons?i=photoshop" alt='Photoshop' />
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ function Home() {
                 </div>
                 <div ref={bottomRef} className='bg-neutral-200 py-12 md:py-20 text-black px-4 md:px-12 lg:px-24 xl:px-64 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-24'>
                     <div className='flex flex-col items-center'>
-                        <img src={wallPeek} className='w-full md:w-11/12 lg:w-9/12 xl:w-8/12 object-cover' alt='Thank You' />
+                        <img src={wallPeek} loading="lazy" className='w-full md:w-11/12 lg:w-9/12 xl:w-8/12 object-cover' alt='Thank You' />
                         <h1 className='font-serif text-4xl md:text-5xl lg:text-6xl text-center'>Thank You.</h1>
                         <h1 className='text-xl md:text-2xl pt-4 text-center'>Get in Touch:</h1>
                         <a target='_blank' href='mailto:mridultiwari2002@gmail.com' rel='noopener noreferrer'>
