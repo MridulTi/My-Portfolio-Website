@@ -67,6 +67,15 @@ export const projectList = [
       "description": "Real Time Whiteboard is a collaborative web-based tool where multiple users can join a session and collaborate on work in real time. Users can also create their own private boards to work individually. The project is built with Keycloak for authentication, React for the front-end, and WebSocket for real-time collaboration."
     },
     {
+      "id": 7,
+      "img": "empty",
+      "title": "Land Me (E-Commerce)",
+      link:"https://github.com/MridulTi/totality-frontend-challenge/tree/master",
+      techstacks:"next,tailwindcss",
+      "subtitle": "Find Your Dream Home, Effortlessly.",
+      "description": "Land Me project is a property rental platform developed using Next.js. It allows users to browse property listings, add properties to their cart, and manage bookings. The application combines coding, UI design, logical thinking, user interaction, and critical problem-solving skills."
+    },
+    {
       "id": 8,
       "img": "empty",
       "title": "CompCompiler",
